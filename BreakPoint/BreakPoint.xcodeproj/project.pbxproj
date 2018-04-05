@@ -11,8 +11,8 @@
 		736996CE2076B843009C6CF3 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736996CD2076B843009C6CF3 /* ShadowView.swift */; };
 		736996D02076BA23009C6CF3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736996CF2076BA23009C6CF3 /* AuthService.swift */; };
 		737678A02075AA5600E06E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376789F2075AA5600E06E7E /* AppDelegate.swift */; };
-		737678A22075AA5600E06E7E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737678A12075AA5600E06E7E /* FirstViewController.swift */; };
-		737678A42075AA5600E06E7E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737678A32075AA5600E06E7E /* SecondViewController.swift */; };
+		737678A22075AA5600E06E7E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737678A12075AA5600E06E7E /* FeedVC.swift */; };
+		737678A42075AA5600E06E7E /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737678A32075AA5600E06E7E /* GroupsVC.swift */; };
 		737678A72075AA5600E06E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737678A52075AA5600E06E7E /* Main.storyboard */; };
 		737678A92075AA5800E06E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737678A82075AA5800E06E7E /* Assets.xcassets */; };
 		737678AC2075AA5800E06E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737678AA2075AA5800E06E7E /* LaunchScreen.storyboard */; };
@@ -29,8 +29,8 @@
 		736996CF2076BA23009C6CF3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		7376789C2075AA5600E06E7E /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7376789F2075AA5600E06E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		737678A12075AA5600E06E7E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		737678A32075AA5600E06E7E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		737678A12075AA5600E06E7E /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		737678A32075AA5600E06E7E /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		737678A62075AA5600E06E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		737678A82075AA5800E06E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		737678AB2075AA5800E06E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,8 +98,8 @@
 		737678B32075AB6B00E06E7E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				737678A12075AA5600E06E7E /* FirstViewController.swift */,
-				737678A32075AA5600E06E7E /* SecondViewController.swift */,
+				737678A12075AA5600E06E7E /* FeedVC.swift */,
+				737678A32075AA5600E06E7E /* GroupsVC.swift */,
 				73893356207645F300C1EA5E /* LoginVC.swift */,
 				738933582076461000C1EA5E /* AuthVC.swift */,
 			);
@@ -300,13 +300,13 @@
 			files = (
 				736996CE2076B843009C6CF3 /* ShadowView.swift in Sources */,
 				737678BE2075B80900E06E7E /* Constants.swift in Sources */,
-				737678A42075AA5600E06E7E /* SecondViewController.swift in Sources */,
+				737678A42075AA5600E06E7E /* GroupsVC.swift in Sources */,
 				73893357207645F300C1EA5E /* LoginVC.swift in Sources */,
 				7389335B207646E200C1EA5E /* InsetTextField.swift in Sources */,
 				736996D02076BA23009C6CF3 /* AuthService.swift in Sources */,
 				737678A02075AA5600E06E7E /* AppDelegate.swift in Sources */,
 				738933592076461000C1EA5E /* AuthVC.swift in Sources */,
-				737678A22075AA5600E06E7E /* FirstViewController.swift in Sources */,
+				737678A22075AA5600E06E7E /* FeedVC.swift in Sources */,
 				737678BC2075B69D00E06E7E /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
