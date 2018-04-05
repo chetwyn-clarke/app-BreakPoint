@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		54DD1846D824E9C6DD1327AF /* Pods_BreakPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF22F552829C8C581E20FC7 /* Pods_BreakPoint.framework */; };
+		736996CE2076B843009C6CF3 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736996CD2076B843009C6CF3 /* ShadowView.swift */; };
 		737678A02075AA5600E06E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376789F2075AA5600E06E7E /* AppDelegate.swift */; };
 		737678A22075AA5600E06E7E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737678A12075AA5600E06E7E /* FirstViewController.swift */; };
 		737678A42075AA5600E06E7E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737678A32075AA5600E06E7E /* SecondViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		736996CD2076B843009C6CF3 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		7376789C2075AA5600E06E7E /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7376789F2075AA5600E06E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		737678A12075AA5600E06E7E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				7389335A207646E200C1EA5E /* InsetTextField.swift */,
+				736996CD2076B843009C6CF3 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736996CE2076B843009C6CF3 /* ShadowView.swift in Sources */,
 				737678BE2075B80900E06E7E /* Constants.swift in Sources */,
 				737678A42075AA5600E06E7E /* SecondViewController.swift in Sources */,
 				73893357207645F300C1EA5E /* LoginVC.swift in Sources */,
