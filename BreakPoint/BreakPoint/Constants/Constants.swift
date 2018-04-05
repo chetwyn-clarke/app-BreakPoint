@@ -12,3 +12,7 @@ import Firebase
 // MARK: - Firebase Implementation
 
 let DB_BASE = Database.database().reference()
+
+// MARK: - View Controllers
+
+let authVC = "AuthVC"
