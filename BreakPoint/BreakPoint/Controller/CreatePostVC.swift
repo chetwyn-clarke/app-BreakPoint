@@ -25,6 +25,8 @@ class CreatePostVC: UIViewController {
         super.viewDidLoad()
 
         textView.delegate = self
+        
+        sendBtn.bindToKeyboard()
     }
 
     
