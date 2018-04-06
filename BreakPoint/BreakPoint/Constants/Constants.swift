@@ -17,3 +17,4 @@ let DB_BASE = Database.database().reference()
 
 let authVC = "AuthVC"
 let loginVC = "LoginVC"
+let createPostVC_Placeholder = "Say something here ..."
