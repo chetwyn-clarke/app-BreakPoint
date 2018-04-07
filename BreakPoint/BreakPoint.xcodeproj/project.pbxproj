@@ -12,6 +12,7 @@
 		73664BF52077AB2500FA8AA0 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73664BF42077AB2500FA8AA0 /* CreatePostVC.swift */; };
 		73664BF92077E7E000FA8AA0 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73664BF82077E7E000FA8AA0 /* UIViewExt.swift */; };
 		73664BFB2077F7BD00FA8AA0 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73664BFA2077F7BD00FA8AA0 /* FeedCell.swift */; };
+		73664BFD20783EB000FA8AA0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73664BFC20783EB000FA8AA0 /* Message.swift */; };
 		736996CE2076B843009C6CF3 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736996CD2076B843009C6CF3 /* ShadowView.swift */; };
 		736996D02076BA23009C6CF3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736996CF2076BA23009C6CF3 /* AuthService.swift */; };
 		737678A02075AA5600E06E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376789F2075AA5600E06E7E /* AppDelegate.swift */; };
@@ -33,6 +34,7 @@
 		73664BF42077AB2500FA8AA0 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		73664BF82077E7E000FA8AA0 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		73664BFA2077F7BD00FA8AA0 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		73664BFC20783EB000FA8AA0 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		736996CD2076B843009C6CF3 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		736996CF2076BA23009C6CF3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		7376789C2075AA5600E06E7E /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 		737678B52075AB9900E06E7E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				73664BFC20783EB000FA8AA0 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				737678A02075AA5600E06E7E /* AppDelegate.swift in Sources */,
 				7330F7D22077301700759A57 /* MeVC.swift in Sources */,
 				738933592076461000C1EA5E /* AuthVC.swift in Sources */,
+				73664BFD20783EB000FA8AA0 /* Message.swift in Sources */,
 				737678A22075AA5600E06E7E /* FeedVC.swift in Sources */,
 				737678BC2075B69D00E06E7E /* DataService.swift in Sources */,
 			);
