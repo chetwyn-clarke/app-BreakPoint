@@ -23,10 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if Auth.auth().currentUser == nil {
             
             let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-            let auth_VC = storyboard.instantiateViewController(withIdentifier: authVC)
+            let authVC = storyboard.instantiateViewController(withIdentifier: auth_VC)
             
             window?.makeKeyAndVisible()
-            window?.rootViewController?.present(auth_VC, animated: true, completion: nil)
+            window?.rootViewController?.present(authVC, animated: true, completion: nil)
         }
         
         return true

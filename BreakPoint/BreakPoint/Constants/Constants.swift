@@ -15,6 +15,6 @@ let DB_BASE = Database.database().reference()
 
 // MARK: - View Controllers
 
-let authVC = "AuthVC"
+let auth_VC = "AuthVC"
 let loginVC = "LoginVC"
 let createPostVC_Placeholder = "Say something here ..."
