@@ -19,23 +19,32 @@ class CreateGroupsVC: UIViewController {
     @IBOutlet weak var groupMembersLbl: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
+    var emailArray = [String]()
+    
+    // MARK: - Functions
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.dataSource = self
         tableView.delegate = self
+        
+        emailSearchTextField.delegate = self
+        emailSearchTextField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
     }
     
     // MARK: - Actions
     
     @IBAction func closeBtnWasPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func doneBtnWasPressed(_ sender: Any) {
     }
     
 }
+
+// MARK: TableView Implementation
 
 extension CreateGroupsVC: UITableViewDataSource, UITableViewDelegate {
     
@@ -44,7 +53,7 @@ extension CreateGroupsVC: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return emailArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -52,8 +61,27 @@ extension CreateGroupsVC: UITableViewDataSource, UITableViewDelegate {
         
         let profileImage = UIImage(named: "defaultProfileImage")
         
-        cell.configureCell(profileImage: profileImage!, email: "test@test.com", isSelected: true)
+        cell.configureCell(profileImage: profileImage!, email: emailArray[indexPath.row], isSelected: true)
         
         return cell
     }
+}
+
+// MARK: TextField Implementation
+
+extension CreateGroupsVC: UITextFieldDelegate {
+    
+    @ objc func textFieldDidChange() {
+        
+        if emailSearchTextField.text == "" {
+            emailArray = []
+            tableView.reloadData()
+        } else {
+            DataService.instance.getEmail(forSearchQuery: emailSearchTextField.text!) { (returnedEmailArray) in
+                self.emailArray = returnedEmailArray
+                self.tableView.reloadData()
+            }
+        }
+    }
+    
 }
