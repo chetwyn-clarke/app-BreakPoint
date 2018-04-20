@@ -286,7 +286,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWm-Am-mMh">
-                                        <rect key="frame" x="65" y="150" width="245" height="20"/>
+                                        <rect key="frame" x="0.0" y="150" width="375" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="QhR-3u-fe8"/>
                                         </constraints>
@@ -300,8 +300,8 @@
                                     <constraint firstAttribute="height" constant="275" id="CQU-oS-xTK"/>
                                     <constraint firstItem="QWm-Am-mMh" firstAttribute="top" secondItem="My9-BV-ddU" secondAttribute="bottom" constant="20" id="PFk-IO-Rn5"/>
                                     <constraint firstItem="My9-BV-ddU" firstAttribute="centerX" secondItem="Wsi-gU-IW7" secondAttribute="centerX" id="cIT-S3-1ow"/>
-                                    <constraint firstAttribute="trailing" secondItem="QWm-Am-mMh" secondAttribute="trailing" constant="65" id="f1J-CU-dBU"/>
-                                    <constraint firstItem="QWm-Am-mMh" firstAttribute="leading" secondItem="Wsi-gU-IW7" secondAttribute="leading" constant="65" id="wPk-OI-Ks8"/>
+                                    <constraint firstAttribute="trailing" secondItem="QWm-Am-mMh" secondAttribute="trailing" id="f1J-CU-dBU"/>
+                                    <constraint firstItem="QWm-Am-mMh" firstAttribute="leading" secondItem="Wsi-gU-IW7" secondAttribute="leading" id="wPk-OI-Ks8"/>
                                     <constraint firstItem="My9-BV-ddU" firstAttribute="top" secondItem="Wsi-gU-IW7" secondAttribute="top" constant="30" id="wz2-v1-WoJ"/>
                                 </constraints>
                             </view>
@@ -388,13 +388,59 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="548"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="rSI-dO-3TC">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GroupCell" rowHeight="100" id="rSI-dO-3TC" customClass="GroupCell" customModule="BreakPoint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rSI-dO-3TC" id="47y-Mi-dUQ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vg9-Y8-xd1">
+                                                    <rect key="frame" x="23" y="11" width="337" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="xpt-w0-fuw"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                    <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHJ-o1-zJC">
+                                                    <rect key="frame" x="30" y="41" width="330" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="gmT-yB-Kb6"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                                    <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x members." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGm-53-1G7">
+                                                    <rect key="frame" x="30" y="69" width="330" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="cMd-JD-InT"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                                    <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="TGm-53-1G7" firstAttribute="top" secondItem="AHJ-o1-zJC" secondAttribute="bottom" constant="8" id="4kS-3J-r74"/>
+                                                <constraint firstItem="Vg9-Y8-xd1" firstAttribute="trailing" secondItem="47y-Mi-dUQ" secondAttribute="trailingMargin" id="IZd-fA-E8u"/>
+                                                <constraint firstItem="Vg9-Y8-xd1" firstAttribute="leading" secondItem="47y-Mi-dUQ" secondAttribute="leadingMargin" constant="8" id="IjQ-4e-Mct"/>
+                                                <constraint firstItem="AHJ-o1-zJC" firstAttribute="top" secondItem="Vg9-Y8-xd1" secondAttribute="bottom" constant="8" id="Tgc-Me-F0j"/>
+                                                <constraint firstItem="Vg9-Y8-xd1" firstAttribute="top" secondItem="47y-Mi-dUQ" secondAttribute="topMargin" id="dbp-ps-SHI"/>
+                                                <constraint firstItem="TGm-53-1G7" firstAttribute="leading" secondItem="47y-Mi-dUQ" secondAttribute="leadingMargin" constant="15" id="nBo-Hz-sXn"/>
+                                                <constraint firstItem="AHJ-o1-zJC" firstAttribute="leading" secondItem="47y-Mi-dUQ" secondAttribute="leadingMargin" constant="15" id="q6T-3I-vF6"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="TGm-53-1G7" secondAttribute="trailing" id="t1p-Fx-fbz"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="AHJ-o1-zJC" secondAttribute="trailing" id="yRB-k1-mTQ"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="groupDescriptionLbl" destination="AHJ-o1-zJC" id="KNN-Uz-UDM"/>
+                                            <outlet property="groupTitleLbl" destination="Vg9-Y8-xd1" id="uOo-kh-rsE"/>
+                                            <outlet property="memberCountLbl" destination="TGm-53-1G7" id="Hrb-xS-OhW"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -412,10 +458,13 @@
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Groups" image="groups-tabIcon" selectedImage="groups-tabIcon" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="tableView" destination="BLw-VQ-6H4" id="oed-Y2-ffM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="798" y="770"/>
+            <point key="canvasLocation" x="797.60000000000002" y="769.56521739130437"/>
         </scene>
         <!--Create GroupsVC-->
         <scene sceneID="A14-V7-fOB">

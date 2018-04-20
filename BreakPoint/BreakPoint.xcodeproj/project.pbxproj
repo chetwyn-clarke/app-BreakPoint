@@ -29,6 +29,7 @@
 		73893357207645F300C1EA5E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73893356207645F300C1EA5E /* LoginVC.swift */; };
 		738933592076461000C1EA5E /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738933582076461000C1EA5E /* AuthVC.swift */; };
 		7389335B207646E200C1EA5E /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7389335A207646E200C1EA5E /* InsetTextField.swift */; };
+		73D4B2FD208A01FA001B6259 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D4B2FC208A01FA001B6259 /* GroupCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		73893356207645F300C1EA5E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		738933582076461000C1EA5E /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		7389335A207646E200C1EA5E /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		73D4B2FC208A01FA001B6259 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		9C22BE5E910ECFA0C768EDE6 /* Pods-BreakPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakPoint/Pods-BreakPoint.release.xcconfig"; sourceTree = "<group>"; };
 		C8A4ABDE09CADA37453691BE /* Pods-BreakPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BreakPoint/Pods-BreakPoint.debug.xcconfig"; sourceTree = "<group>"; };
 		DAF22F552829C8C581E20FC7 /* Pods_BreakPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +132,7 @@
 				736996CD2076B843009C6CF3 /* ShadowView.swift */,
 				73664BFA2077F7BD00FA8AA0 /* FeedCell.swift */,
 				737128AF2083717C00E4B90A /* UserCell.swift */,
+				73D4B2FC208A01FA001B6259 /* GroupCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				7389335B207646E200C1EA5E /* InsetTextField.swift in Sources */,
 				736996D02076BA23009C6CF3 /* AuthService.swift in Sources */,
 				73664BFB2077F7BD00FA8AA0 /* FeedCell.swift in Sources */,
+				73D4B2FD208A01FA001B6259 /* GroupCell.swift in Sources */,
 				73664BF52077AB2500FA8AA0 /* CreatePostVC.swift in Sources */,
 				737678A02075AA5600E06E7E /* AppDelegate.swift in Sources */,
 				7330F7D22077301700759A57 /* MeVC.swift in Sources */,
