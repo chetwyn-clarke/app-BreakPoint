@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		54DD1846D824E9C6DD1327AF /* Pods_BreakPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF22F552829C8C581E20FC7 /* Pods_BreakPoint.framework */; };
+		7315882D208EAB5C00C3B145 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7315882C208EAB5C00C3B145 /* GroupFeedCell.swift */; };
+		73158830208EABE600C3B145 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7315882F208EABE600C3B145 /* GroupFeedVC.swift */; };
 		7330F7D22077301700759A57 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7330F7D12077301700759A57 /* MeVC.swift */; };
 		73664BF52077AB2500FA8AA0 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73664BF42077AB2500FA8AA0 /* CreatePostVC.swift */; };
 		73664BF92077E7E000FA8AA0 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73664BF82077E7E000FA8AA0 /* UIViewExt.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7315882C208EAB5C00C3B145 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		7315882F208EABE600C3B145 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
 		7330F7D12077301700759A57 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		73664BF42077AB2500FA8AA0 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		73664BF82077E7E000FA8AA0 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 				7330F7D12077301700759A57 /* MeVC.swift */,
 				73664BF42077AB2500FA8AA0 /* CreatePostVC.swift */,
 				737128AD2082871900E4B90A /* CreateGroupsVC.swift */,
+				7315882F208EABE600C3B145 /* GroupFeedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 				73664BFA2077F7BD00FA8AA0 /* FeedCell.swift */,
 				737128AF2083717C00E4B90A /* UserCell.swift */,
 				73D4B2FC208A01FA001B6259 /* GroupCell.swift */,
+				7315882C208EAB5C00C3B145 /* GroupFeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -326,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73664BF92077E7E000FA8AA0 /* UIViewExt.swift in Sources */,
+				73158830208EABE600C3B145 /* GroupFeedVC.swift in Sources */,
 				736996CE2076B843009C6CF3 /* ShadowView.swift in Sources */,
 				737678BE2075B80900E06E7E /* Constants.swift in Sources */,
 				737678A42075AA5600E06E7E /* GroupsVC.swift in Sources */,
@@ -340,6 +347,7 @@
 				737678A02075AA5600E06E7E /* AppDelegate.swift in Sources */,
 				7330F7D22077301700759A57 /* MeVC.swift in Sources */,
 				738933592076461000C1EA5E /* AuthVC.swift in Sources */,
+				7315882D208EAB5C00C3B145 /* GroupFeedCell.swift in Sources */,
 				737128AE2082871900E4B90A /* CreateGroupsVC.swift in Sources */,
 				73664BFD20783EB000FA8AA0 /* Message.swift in Sources */,
 				737678A22075AA5600E06E7E /* FeedVC.swift in Sources */,
