@@ -33,8 +33,6 @@ class GroupsVC: UIViewController {
                 self.tableView.reloadData()
             })
         }
-        
-        print("Number of groups = \(groupsArray.count)")
     }
     
 }
@@ -60,6 +58,15 @@ extension GroupsVC: UITableViewDelegate, UITableViewDataSource {
         //cell.configureCell(title: "Caribbean Crew", description: "Caribbean pilots at Copa", memberCount: 4)
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        guard let groupFeedVC = storyboard?.instantiateViewController(withIdentifier: "GroupFeedVC") as? GroupFeedVC else { return }
+        
+        groupFeedVC.initData(forGroup: groupsArray[indexPath.row])
+        
+        present(groupFeedVC, animated: true, completion: nil)
     }
 }
 
