@@ -10,6 +10,7 @@
 		54DD1846D824E9C6DD1327AF /* Pods_BreakPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF22F552829C8C581E20FC7 /* Pods_BreakPoint.framework */; };
 		7315882D208EAB5C00C3B145 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7315882C208EAB5C00C3B145 /* GroupFeedCell.swift */; };
 		73158830208EABE600C3B145 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7315882F208EABE600C3B145 /* GroupFeedVC.swift */; };
+		732024A9209246E90068EC13 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732024A8209246E90068EC13 /* UIViewControllerExt.swift */; };
 		7330F7D22077301700759A57 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7330F7D12077301700759A57 /* MeVC.swift */; };
 		73664BF52077AB2500FA8AA0 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73664BF42077AB2500FA8AA0 /* CreatePostVC.swift */; };
 		73664BF92077E7E000FA8AA0 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73664BF82077E7E000FA8AA0 /* UIViewExt.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		7315882C208EAB5C00C3B145 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		7315882F208EABE600C3B145 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		732024A8209246E90068EC13 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		7330F7D12077301700759A57 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		73664BF42077AB2500FA8AA0 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		73664BF82077E7E000FA8AA0 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				73664BF82077E7E000FA8AA0 /* UIViewExt.swift */,
+				732024A8209246E90068EC13 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				736996D02076BA23009C6CF3 /* AuthService.swift in Sources */,
 				73664BFB2077F7BD00FA8AA0 /* FeedCell.swift in Sources */,
 				73D4B2FD208A01FA001B6259 /* GroupCell.swift in Sources */,
+				732024A9209246E90068EC13 /* UIViewControllerExt.swift in Sources */,
 				73664BF52077AB2500FA8AA0 /* CreatePostVC.swift in Sources */,
 				737678A02075AA5600E06E7E /* AppDelegate.swift in Sources */,
 				7330F7D22077301700759A57 /* MeVC.swift in Sources */,

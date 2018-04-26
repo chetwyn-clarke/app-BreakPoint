@@ -484,7 +484,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHa-ye-LQU">
-                                        <rect key="frame" x="20" y="30" width="30" height="30"/>
+                                        <rect key="frame" x="8" y="30" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="bSh-Jw-EcB"/>
                                             <constraint firstAttribute="width" constant="30" id="fvH-Gn-pCc"/>
@@ -500,7 +500,7 @@
                                     <constraint firstItem="Zoy-nF-JuS" firstAttribute="centerX" secondItem="xaj-1I-UHO" secondAttribute="centerX" id="4Sd-Ap-tg2"/>
                                     <constraint firstItem="tHa-ye-LQU" firstAttribute="top" secondItem="xaj-1I-UHO" secondAttribute="top" constant="30" id="BPP-hQ-5KL"/>
                                     <constraint firstAttribute="height" constant="70" id="WLC-rE-iHG"/>
-                                    <constraint firstItem="tHa-ye-LQU" firstAttribute="leading" secondItem="xaj-1I-UHO" secondAttribute="leading" constant="20" id="fA8-xl-zTF"/>
+                                    <constraint firstItem="tHa-ye-LQU" firstAttribute="leading" secondItem="xaj-1I-UHO" secondAttribute="leading" constant="8" id="fA8-xl-zTF"/>
                                     <constraint firstItem="tHa-ye-LQU" firstAttribute="centerY" secondItem="Zoy-nF-JuS" secondAttribute="centerY" id="yA6-BK-jro"/>
                                 </constraints>
                             </view>
