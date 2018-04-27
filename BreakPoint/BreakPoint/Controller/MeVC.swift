@@ -45,7 +45,12 @@ class MeVC: UIViewController {
             }
         }
         
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (buttonWasTapped) in
+            self.dismiss(animated: true, completion: nil)
+        }
+        
         logoutPopUp.addAction(logoutAction)
+        logoutPopUp.addAction(cancelAction)
         present(logoutPopUp, animated: true, completion: nil)
     }
     
